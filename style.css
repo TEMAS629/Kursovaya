@@ -1,213 +1,409 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    max-width: 1920px;
-    display: block;
-    margin: 0 auto;
-    scroll-behavior: smooth;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    position: absolute;
-    width: 100%;
-    max-width: 100%;
-    height: 125px;
-    display: flex;
-    align-items: center;
-    z-index: 3;
-    background-color: #18416f5b;
-}
-a{
-    text-decoration: none;
+body {
+  max-width: 1920px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  scroll-behavior: smooth;
 }
 
-.container{
-    width: 1640px;
-    margin: 0 auto;
+header {
+  position: absolute;
+  width: 100%;
+  max-width: 1920px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+  background-color: #18416f5b;
+}
+a {
+  text-decoration: none;
 }
 
-header .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
 
-.right{
-    width: 52%;
-    display: flex;
-    justify-content: space-between;
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav{
-    width: 70%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.right {
+  width: 52%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.menu{
-    font-size: 24px;
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: #fff;
+nav {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.btn{
-    background-color: #ffffff62;
-    padding: 12px 62px;
-    border: none;
-    border-radius: 36px;
-    font-size: 20px;
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
-    cursor: pointer;
-    color: #fff;
+.menu {
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
 }
 
-.mainbanner{
-    width: 100%;
-    top: 0px;
-    height: 1040px;
-    background-image: url(img/mainphoto.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    align-items: center;
-    display: flex;
-    z-index: 0;
+.btn {
+  background-color: #ffffff62;
+  padding: 12px 62px;
+  border: none;
+  border-radius: 36px;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+  color: #fff;
 }
 
-.offer{
-    text-align: center;
-    font-size: 128px;
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    color: #fff;
+.mainbanner {
+  width: 100%;
+  top: 0px;
+  height: 1040px;
+  background-image: url(img/mainphoto.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  align-items: center;
+  display: flex;
+  z-index: 0;
 }
 
-.offer_text{
-    max-width: 55%;
-    text-align: center;
-    font-size: 36px;
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    color: #fff;
-}
-.offer_do{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 200px;
-    padding-top: 150px;
+.offer {
+  text-align: center;
+  font-size: 128px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
 }
 
-.offer_do .btn{
-    margin-top: 13%;
-    padding: 22px 73px;
+.offer_text {
+  max-width: 55%;
+  text-align: center;
+  font-size: 36px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #fff;
+}
+.offer_do {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+  padding-top: 150px;
 }
 
-.title{
-    font-size: 96px;
-    font-family: "Rubik", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    color: #123F65;
+.offer_do .btn {
+  margin-top: 13%;
+  padding: 22px 73px;
+}
+
+.title {
+  margin-top: 90px;
+  font-size: 96px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #123f65;
 }
 
 .swiper {
-    width: 100%;
-    height: 690px;
-    margin: 50px 0 !important;
-  }
+  width: 100%;
+  height: 690px;
+  margin: 50px 0 !important;
+}
 
-  .swiper-slide {
-    width: 420px !important;
-    height: 80% !important;
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    background-image: url(img/Torkey.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .swiper-wrapper{
-    align-items: center;
-    width: 100% !important;
-    margin: 0 auto !important;
-    /* filter: blur(14px); */
-  }
-  .swiper-wrapper .turkie{
-    /* background-image: url(img/Torkey.png);
+.swiper-slide {
+  width: 25% !important;
+  height: 80% !important;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background-image: url(img/Torkey.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.swiper-wrapper {
+  align-items: center;
+  width: 100% !important;
+  margin: 0 auto !important;
+  /* filter: blur(14px); */
+}
+.swiper-wrapper .turkie {
+  /* background-image: url(img/Torkey.png);
     background-size: cover;
     background-repeat: no-repeat; */
-  }
+}
 
-  .swiper-wrapper .swiper-slide-active{
-    width: 420px !important;
-    height: 80% !important;
-    filter: blur(14px);
-    
-  }
-  .swiper-wrapper .swiper-slide-next{
-    width: 530px !important;
-    height: 100% !important;
-    filter: none !important;
-  }
+.swiper-wrapper .swiper-slide-active {
+  width: 420px !important;
+  height: 80% !important;
+  filter: blur(14px);
+}
+.swiper-wrapper .swiper-slide-next {
+  width: 530px !important;
+  height: 100% !important;
+  filter: none !important;
+}
 
-  .swiper-slide img {
-    display: block;
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.advantages {
+  position: relative;
+  width: 100%;
+  height: 1500px;
+}
+.fon_right {
+  position: absolute;
+  top: 320px;
+  right: 0;
+}
+.fon_left {
+  position: absolute;
+  bottom: 210px;
+  left: 0;
+}
+.advantages .container {
+  height: 100%;
+}
+
+.advantages .advant_main {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  height: 100%;
+}
+
+.advantages .advant_main .photo_advant {
+  height: 75%;
+  position: relative;
+}
+
+.advantages .advant_main .photo_advant .main_photo {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 620px;
+  height: 620px;
+  border-radius: 310px;
+  background-image: url(img/main_image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.advantages .advant_main .photo_advant .little_photo {
+  position: absolute;
+  top: 335px;
+  left: 263px;
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background-image: url(img/little_image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.advantages .advant_main .text_advant span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: #1f538f;
+  border-radius: 50%;
+}
+.advantages .advant_main .text_advant p {
+  width: 52%;
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #222646;
+  display: flex;
+  margin-left: 80px;
+  padding-top: 173px;
+  padding-bottom: 26px;
+  flex-direction: column;
+  justify-content: center;
+}
+.advantages .advant_main .text_advant {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.advantages .advant_main .text_advant_down p {
+  width: 89%;
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #222646;
+  display: flex;
+  margin-left: 80px;
+  padding-top: 126px;
+  padding-left: 283px;
+  padding-bottom: 59px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.advantages .advant_main .photo_advant .main_down_photo {
+  position: absolute;
+  top: 36px;
+  left: 128px;
+  width: 620px;
+  height: 620px;
+  border-radius: 310px;
+  background-image: url(img/main_down_img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.advantages .advant_main .photo_advant .little_down_photo {
+  position: absolute;
+  top: -30px;
+  left: 408px;
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  background-image: url(img/little_down_img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.advantages .advant_main .svg_advant {
+  position: absolute;
+  top: 255px;
+  margin-left: 50%;
+}
+
+.form_podbor {
+  width: 100%;
+  margin-top: 160px;
+  height: 780px;
+  background-image: url(img/fon_form.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.form_podbor .container {
+  width: 50% !important;
+  margin: 0 auto !important;
+  padding-top: 165px;
+}
+
+.title_form {
+  width: 80%;
+  font-size: 64px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.form_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 45px;
+}
+
+.form_podbor p span {
+  margin-top: 90px;
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.form_podbor p {
+  width: 70%;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.form_input {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form_podbor .form_block .form_input input {
+  background: transparent;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #ffffff !important;
+  border: none;
+  border-bottom: 1px solid #ffffff !important;
+  padding: 8px;
+}
+.form_podbor .form_block .form_input input:focus {
+  outline: none;
+}
+/* .form_input span{
+    display: inline-block;
+}
+
+.form_podbor .form_block .form_input input:focus ~ span,
+.form_podbor .form_block .form_input input:valid ~ span{
+    font-size: 12px;
+    color: #111;
+    transform: translateX(-10px) translateY(-32px); /* перемещение placeholder-ов 
+} */
+
+.form_podbor .form_block .form_input .form::placeholder {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.form_podbor .button{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    display: flex;
+    justify-content: end;
+}
 
 /* .rubik-uniquifier > {
     font-family: "Rubik", sans-serif;
