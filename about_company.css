@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1920px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    max-width: 1920px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    background-color: #18416f5b;
+}
+
+.header {
+    background-color: #18416f;
+    position: relative !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .phone {
+    width: auto;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+header .profile {
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.login {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+.btn {
+    background-color: #ffffff62;
+    padding: 12px 62px;
+    border: none;
+    border-radius: 36px;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    cursor: pointer;
+    color: #fff;
+}
+
+.title {
+    margin-top: 90px;
+    font-size: 96px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #123f65;
+  }
+
+
+.about_company {
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+.info_company {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info_company::before{
+    content: '';
+    position: absolute;
+    right: 117px;
+    top: 58px;
+    z-index: -1;
+    width: 550px;
+    height: 550px;
+    background-image: url(img/fon_about.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: twist;
+}
+
+@keyframes twist{
+    100%{
+        transform: rotate(360deg);
+    }
+    
+
+}
+
+.info_company .left_side {
+    width: 45%;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.info_company .right_side {
+    width: 24%;
+    height: 480px;
+    background-image: url(img/logo_about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #1f538fcc;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_menu {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer_menu {
+    width: 25%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.contact_footer {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.phone_mail_footer {
+    width: 100%;
+}
+
+.phone {
+    width: 100%;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.mail {
+    width: 100%;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.socials {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

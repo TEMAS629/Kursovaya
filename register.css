@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1920px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  max-width: 1920px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  z-index: 3;
+  background-color: #18416f5b;
+}
+
+.header {
+  background-color: #18416f;
+  position: relative !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .phone {
+  width: auto;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+header .profile {
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.login {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+
+.btn {
+  background-color: #ffffff62;
+  padding: 12px 62px;
+  border: none;
+  border-radius: 36px;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+  color: #fff;
+}
+
+.title {
+  margin-top: 165px;
+  font-size: 96px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.registration {
+  width: 100%;
+  top: 0;
+  height: 780px;
+  background-image: url(img/fon_form.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  z-index: 0;
+}
+
+.form_main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 60px 0;
+  gap: 60px;
+}
+
+.form_input {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form_input input {
+  background: transparent;
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  color: #ffffff !important;
+  border: none;
+  border-bottom: 1px solid #ffffff !important;
+  padding: 8px;
+}
+
+.form_input input:focus {
+  outline: none;
+}
+
+.form_input .form::placeholder {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #1f538fcc;
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo_menu {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer_menu {
+  width: 25%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.contact_footer {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.phone_mail_footer {
+  width: 100%;
+}
+
+.phone {
+  width: 100%;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.mail {
+  width: 100%;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.socials {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
