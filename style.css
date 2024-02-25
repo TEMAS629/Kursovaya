@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 1920px;
   width: auto;
@@ -25,7 +29,7 @@ header {
   background-color: #18416f5b;
 }
 
-#header {
+.header {
   background-color: #18416f;
   position: relative !important;
 }
@@ -586,55 +590,7 @@ footer {
 
 /* СТРАНИЦА ТУРОВ */
 
-.search {
-  background-color: #5478d286;
-}
 
-.search_tours {
-  padding: 18px 15px;
-  width: 51%;
-  height: 100px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.input_info {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.radius_left {
-  border-radius: 12px 0 0 12px;
-}
-
-
-.title_input {
-  font-size: 16px;
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  text-align: center;
-  color: #123F65;
-}
-
-.form_input_search {
-  width: 80%;
-  height: 50%;
-  border: none;
-  text-align: center;
-  font-size: 16px;
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  text-align: center;
-
-}
 
 /* .rubik-uniquifier > {
     font-family: "Rubik", sans-serif;
