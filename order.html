@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="Ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="order.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Bounty</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <a href="#"><img class="logo" src="img/logo.png" alt="Логотип" /></a>
+            <div class="right">
+                <nav>
+                    <a class="menu" href="/tours.html">Поиск туров</a>
+                    <a class="menu" href="/about_company.html">О компании</a>
+                    <a class="menu" href="#">Обратная связь</a>
+                </nav>
+                <a href="+79062989111" class="phone">
+                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="29" height="29" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_755_69" transform="scale(0.01)" />
+                            </pattern>
+                            <image id="image0_755_69" width="100" height="100"
+                                xlink:href="data:image/png;base64,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" />
+                        </defs>
+                    </svg>
+                    +7 (906) 298-91-11</a>
+                <div href="#" class="login">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="30" height="30" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_755_70" transform="scale(0.01)" />
+                            </pattern>
+                            <image id="image0_755_70" width="100" height="100"
+                                xlink:href="data:image/png;base64,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" />
+                        </defs>
+                    </svg>
+
+                    <a href="autorisation.html" class="profile">Мой кабинет</a>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="order_main">
+        <div class="container">
+            <div class="title">АНАПА</div>
+            <div class="order">
+                <div class="left_side">
+                    <div class="photo_main">
+
+                    </div>
+                    <div class="photo_min">
+                        <div class="photo"></div>
+                        <div class="photo"></div>
+                    </div>
+                </div>
+
+                <div class="right_side">
+                    <div class="info_order">
+                        <div class="price">33 000 <span>₽</span></div>
+                        <div class="review_title">Отзывы</div>
+                        <div class="reviews">
+                            <div class="review">
+                                <div class="info_user">
+                                    <div class="photo_user"></div>
+                                    <div class="name_user">Имя фамилия</div>
+                                    <div class="notes">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                                </div>
+                                <div class="review_user">
+                                    Прежде всего, социально-экономическое развитие предоставляет широкие возможности для
+                                    распределения внутренних резервов и ресурсов.
+                                </div>
+                            </div>
+                            <div class="all_reviews"><u>Все отзывы</u></div>
+                        </div>
+                        <a href="#"><button class="btn">Отправить заявку</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="like_a_reviews">
+        <div class="container">
+            <div class="title">ПОХОЖИЕ ПРЕДЛОЖЕНИЯ</div>
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="logo_menu">
+            <a href="#header" class="logo"><img src="img/logo.png" alt="logotype" /></a>
+            <div class="footer_menu">
+                <a class="menu" href="#">Услуги</a>
+                <a class="menu" href="/tours.html">Поиск туров</a>
+                <a class="menu" href="/about_company.html">О компании</a>
+                <a class="menu" href="#">Бронирование</a>
+                <a class="menu" href="#">Обратная связь</a>
+            </div>
+        </div>
+        <div class="contact_footer">
+            <div class="phone_mail_footer">
+                <div class="phone">+7 (906) 298-91-11</div>
+                <div class="mail">bounty.travel@gmail.com</div>
+            </div>
+            <div class="socials">
+                <div class="icon"><img src="img/vk.png" alt="ВКонтакте" /></div>
+                <div class="icon"><img src="img/insta.png" alt="Инстаграм" /></div>
+                <div class="icon"><img src="img/whatsapp.png" alt="Ватсап" /></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="slider.js"></script>
+</body>
+
+</html>
