@@ -188,44 +188,70 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: auto !important;
-  margin-right: auto !important;
+  border-radius: 12px;
+}
+
+
+.swiper-slide img{
+  position: relative;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.swiper-slide .info_tour{
+  position: absolute;
+  width: 100%;
+  height: 165px;
+  background-color: #123f65;
+  border-radius: 0px 0px 12px 12px;
+  padding: 20px;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.text_info_tour{
+  width: 100%;
+  font-size: 24px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  text-align: center;
+  font-style: normal;
+  color: #ffffff;
+}
+.swiper-slide{
+  cursor: pointer;
+}
+
+
+/* .swiper-wrapper .turkie {
   background-image: url(img/Torkey.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-.swiper-wrapper {
-  align-items: center;
-  width: 100% !important;
-  margin: 0 auto !important;
-  /* filter: blur(14px); */
+.swiper-wrapper .anapa {
+  background-image: url(img/anapa.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-.swiper-wrapper .turkie {
-  /* background-image: url(img/Torkey.png);
-    background-size: cover;
-    background-repeat: no-repeat; */
+.swiper-wrapper .gelend {
+  background-image: url(img/gelendjik.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-.swiper-wrapper .swiper-slide-active {
-  width: 420px !important;
-  height: 80% !important;
-  filter: blur(14px);
+.swiper-wrapper .sochi {
+  background-image: url(img/sochi.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-.swiper-wrapper .swiper-slide-next {
-  width: 530px !important;
-  height: 100% !important;
-  filter: none !important;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+.swiper-wrapper .gagra {
+  background-image: url(img/gagra.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
 
 .advantages {
   position: relative;
